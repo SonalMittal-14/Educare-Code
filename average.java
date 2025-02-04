@@ -10,7 +10,7 @@ public class average {
         System.out.println("Enter Third Number : ");;
         int c = scanner.nextInt();
 
-        double avg = (a+b+c)/3;
+        double avg = (a+b+c)/3.0;
         System.out.println("Average is : "+avg);
 
         scanner.close();
